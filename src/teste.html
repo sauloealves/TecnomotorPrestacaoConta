@@ -1,0 +1,176 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Tecnomotor - Prestação de contas</title>
+	
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	
+<!-- bootstrap framework-->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<!-- todc-bootstrap -->
+	<link rel="stylesheet" href="css/todc-bootstrap.min.css">
+<!-- font awesome -->        
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+<!-- flag icon set -->        
+	<link rel="stylesheet" href="img/flags/flags.css">
+<!-- retina ready -->
+	<link rel="stylesheet" href="css/retina.css">
+<!-- bootstrap switch -->
+	<link rel="stylesheet" href="js/lib/bootstrap-switch/stylesheets/bootstrap-switch.css">
+	<link rel="stylesheet" href="js/lib/bootstrap-switch/stylesheets/ebro_bootstrapSwitch.css">	
+
+<!-- aditional stylesheets -->
+	<!-- vector map -->
+		<link rel="stylesheet" href="js/lib/jvectormap/jquery-jvectormap-1.2.2.css">
+	<!-- owl carousel -->        
+		<link rel="stylesheet" href="js/lib/owl-carousel/owl.carousel.css">
+	<!-- responsive lightbox -->
+		<link rel="stylesheet" href="js/lib/magnific-popup/magnific-popup.css">
+	<!-- linecons -->        
+		<link rel="stylesheet" href="css/linecons/style.css">
+	<!-- fullcalendar -->
+		<link rel="stylesheet" href="js/lib/fullcalendar/fullcalendar.css">
+
+<!-- ebro styles -->
+	<link rel="stylesheet" href="css/style.css">
+<!-- ebro theme -->
+	<link rel="stylesheet" href="css/theme/color_1.css" id="theme">
+	
+<!--[if lt IE 9]>
+	<link rel="stylesheet" href="css/ie.css">
+	<script src="js/ie/html5shiv.js"></script>
+	<script src="js/ie/respond.min.js"></script>
+	<script src="js/ie/excanvas.min.js"></script>
+<![endif]-->
+
+<!-- custom fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>	
+	<script src="js/config.js"></script>
+
+</head><body class=" sidebar_hidden side_fixed">
+	<div id="wrapper_all">
+		<div id="main_content_outer" class="clearfix">
+			<div id="main_content">
+				
+	<header id="top_header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-sm-2">
+					<a href="dashboard1.html" class="logo_main" title="Ebro Admin Template:"><img src="img/tecnomotor.png" style='max-height:50px' alt=""></a>
+				</div>
+				<div class="col-sm-push-4 col-sm-3 text-right hidden-xs">
+					
+					<div class="notification_separator"></div>
+					<div class="notification_dropdown dropdown" style='display:none'>
+						<a href="#" class="notification_icon dropdown-toggle" data-toggle="dropdown">
+							<span class="label label-danger">12</span>
+							<i class="icon-envelope-alt icon-2x"></i>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-wide">
+							<li>
+								<div class="dropdown_heading">Messages</div>
+								<div class="dropdown_content">
+									<ul class="dropdown_items">
+										<li>
+											<h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+											<p class="large_info">Sean Walter, 24.05.2014</p>
+											<i class="icon-exclamation-sign indicator"></i>
+										</li>
+										<li>
+											<h3><a href="#">Lorem ipsum dolor&hellip;</a></h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aliquam assumenda&hellip;</p>
+											<p class="large_info">Sean Walter, 24.05.2014</p>
+										</li>
+										<li>
+											<h3><a href="#">Lorem ipsum dolor&hellip;</a></h3>
+											<p>Lorem ipsum dolor sit amet, consectetur&hellip;</p>
+											<p class="large_info">Sean Walter, 24.05.2014</p>
+											<i class="icon-exclamation-sign indicator"></i>
+										</li>
+									</ul>
+								</div>
+								<div class="dropdown_footer">
+									<a href="#" class="btn btn-sm btn-default">Show all</a>
+									<div class="pull-right dropdown_actions">
+										<a href="#"><i class="icon-refresh"></i></a>
+										<a href="#"><i class="icon-cog"></i></a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-push-4 col-sm-3">
+					<div class="pull-right dropdown">
+						
+						<a href="#" id='logoff'>Sair</a>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</header>						
+	<nav id="top_navigation">
+		<div class="container">
+			<ul id="icon_nav_h" class="top_ico_nav clearfix">
+				<li>
+					<a href="#">
+						<i class="icon-home icon-2x"></i>
+						<span class="menu_label">Início</span>
+					</a>
+				</li>
+				
+				<li>             
+					<a href="#">
+						<i class="icon-tasks icon-2x"></i>
+						<span class="menu_label">Prestação</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- mobile navigation -->
+	<nav id="mobile_navigation"></nav>
+	
+	<section id="breadcrumbs">
+		<div class="container">
+			<ul>
+				<li><a href="#">Ebro Admin</a></li>
+				<li><span>Prestação</span></li>						
+			</ul>
+		</div>
+	</section>
+
+	<script type="text/javascript">
+	$(function(){
+		$('#logoff').click(function(){
+			alert('tyeste');
+		});
+	})
+</script>				<div class="row">
+					<table id="resp_table" class="table toggle-square" data-filter="#table_search" data-page-size="40">
+						<thead>
+							<tr>
+								<th>Data</th>
+								<th>Descri��o</th>
+								<th>Valor</th>
+							</tr>
+						</thead>
+						<tbody>
+										
+					<tr><td>2</td><td>Sep 8 2015 12:00AM</td><td>PARCELA DE ANUIDADE </td></tr><tr><td>3</td><td>Sep 8 2015 12:00AM</td><td>CASTELO PLAZA SAO CARLOS BR </td></tr><tr><td>4</td><td>Sep 8 2015 12:00AM</td><td>PIMENTA VERDE ALIMENTO GUARULHOS BR </td></tr><tr><td>5</td><td>Sep 9 2015 12:00AM</td><td>POSTO DISTR INDUSTRIAL MACAIBA BR </td></tr><tr><td>6</td><td>Sep 9 2015 12:00AM</td><td>REI DAS COXINHAS PEDRAS DE FOG BR </td></tr><tr><td>7</td><td>Sep 9 2015 12:00AM</td><td>TUBA PIZZARIA JABOATAO DOS BR </td></tr><tr><td>8</td><td>Sep 9 2015 12:00AM</td><td>BAMBINOS BURGERS MOSSORO BR </td></tr><tr><td>9</td><td>Sep 10 2015 12:00AM</td><td>LACADOR MOSSORO BR </td></tr><tr><td>10</td><td>Sep 11 2015 12:00AM</td><td>POSTO IGUANA MOSSORO BR </td></tr><tr><td>11</td><td>Sep 11 2015 12:00AM</td><td>REBOUCAS SUPERMERCADO LMOSSORO BR </td></tr><tr><td>12</td><td>Sep 12 2015 12:00AM</td><td>HOTEL SABINO PALACE MOSSORO BR </td></tr><tr><td>13</td><td>Sep 12 2015 12:00AM</td><td>POSTO ROTA SUL 2 SAO JOSE DE M BR </td></tr><tr><td>14</td><td>Sep 12 2015 12:00AM</td><td>BAMBINOS BURGERS MOSSORO BR </td></tr><tr><td>15</td><td>Sep 12 2015 12:00AM</td><td>WESQLE MEDEIROS DA SIL LAJES BR </td></tr><tr><td>16</td><td>Sep 14 2015 12:00AM</td><td>ANA E C ROCHA J GUARARAPES BR </td></tr><tr><td>17</td><td>Sep 15 2015 12:00AM</td><td>LOJAS AMERICANAS 56 RECIFE BR </td></tr><tr><td>18</td><td>Sep 15 2015 12:00AM</td><td>CALDINHO DO DOGAO OLINDA BR </td></tr><tr><td>19</td><td>Sep 15 2015 12:00AM</td><td>TACARUNA PARKING RECIFE BR </td></tr><tr><td>20</td><td>Sep 15 2015 12:00AM</td><td>BOMPRECO LJ RECIFE BR </td></tr><tr><td>21</td><td>Sep 15 2015 12:00AM</td><td>LUCIA MARIA DE SOUZA LIOLINDA BR </td></tr><tr><td>22</td><td>Sep 19 2015 12:00AM</td><td>ESTACAO DO MAXAMBOMBA OLINDA BR </td></tr><tr><td>23</td><td>Sep 20 2015 12:00AM</td><td>ESTACAO DO MAXAMBOMBA OLINDA BR </td></tr><tr><td>24</td><td>Sep 21 2015 12:00AM</td><td>HOTEL POUSADA SAO FRAN OLINDA BR </td></tr><tr><td>25</td><td>Sep 21 2015 12:00AM</td><td>CAMPEAO 28 POSTOS DE S SAO PAULO BR </td></tr><tr><td>26</td><td>Sep 30 2015 12:00AM</td><td>DONNA PIZZA SAO CARLOS BR </td></tr><tr><td>27</td><td>Oct 1 2015 12:00AM</td><td>GRAAL BAND NORTE SANTA BARBARA BR </td></tr><tr><td>28</td><td>Oct 1 2015 12:00AM</td><td>RESTAURANTE GRAAL SUL SANTA BARBARA BR </td></tr><tr><td>29</td><td>Oct 3 2015 12:00AM</td><td>GRAAL BAND SUL SANTA BARBARA BR </td></tr><tr><td>30</td><td>Oct 4 2015 12:00AM</td><td>RODO POSTO RUBI GRAAL SAO CARLOS BR </td></tr><tr><td>262</td><td>Aug 7 2015 12:00AM</td><td>PARCELA DE ANUIDADE </td></tr><tr><td>263</td><td>Aug 8 2015 12:00AM</td><td>FA P CAI CAIEIRAS BR </td></tr><tr><td>264</td><td>Aug 9 2015 12:00AM</td><td>POSTO INDAIA SHELL RIBEIRAO PRET BR </td></tr><tr><td>265</td><td>Aug 11 2015 12:00AM</td><td>ICO ESTACIONAMENTOS LT SAO PAULO BR </td></tr><tr><td>266</td><td>Aug 11 2015 12:00AM</td><td>CASTELO PLAZA SAO CARLOS BR </td></tr><tr><td>267</td><td>Aug 11 2015 12:00AM</td><td>AUTO POSTO AMENEL SAO PAULO BR </td></tr><tr><td>268</td><td>Aug 11 2015 12:00AM</td><td>MARENGO SAO PAULO BR </td></tr><tr><td>269</td><td>Aug 13 2015 12:00AM</td><td>REDE CAMPEAO CAMPINAS BR </td></tr><tr><td>270</td><td>Aug 13 2015 12:00AM</td><td>MARENGO SAO PAULO BR </td></tr><tr><td>271</td><td>Aug 14 2015 12:00AM</td><td>RESTAURANTE GRAAL SANTA BARBARA BR </td></tr><tr><td>272</td><td>Aug 18 2015 12:00AM</td><td>CASTELO PLAZA SAO CARLOS BR </td></tr><tr><td>273</td><td>Aug 18 2015 12:00AM</td><td>DEGAS POMPEIA SAO PAULO BR </td></tr><tr><td>274</td><td>Aug 18 2015 12:00AM</td><td>POSTO DE SERVICOS 23 D SAO PAULO BR </td></tr><tr><td>275</td><td>Aug 19 2015 12:00AM</td><td>MC DONALDS SSA ITUPEVA BR </td></tr><tr><td>276</td><td>Aug 19 2015 12:00AM</td><td>CASTELO PLAZA SAO CARLOS BR </td></tr><tr><td>277</td><td>Aug 19 2015 12:00AM</td><td>RODO POSTO RUBI GRAAL SAO CARLOS BR </td></tr><tr><td>278</td><td>Aug 20 2015 12:00AM</td><td>GRILETTO RESTAURANTE RIBEIRAO PRET BR </td></tr><tr><td>279</td><td>Aug 21 2015 12:00AM</td><td>FLY SAO CARLOS BR </td></tr><tr><td>280</td><td>Aug 22 2015 12:00AM</td><td>CASTELO PLAZA SAO CARLOS BR </td></tr><tr><td>281</td><td>Aug 23 2015 12:00AM</td><td>GRAAL BAND NORTE SANTA BARBARA BR </td></tr><tr><td>282</td><td>Aug 26 2015 12:00AM</td><td>POSTO INDAIA SHELL RIBEIRAO PRET BR </td></tr>				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
+
+</html>
