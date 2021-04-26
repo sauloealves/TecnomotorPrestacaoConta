@@ -44,7 +44,7 @@
 			</div>
 			<form action="dashboard.php" id="login_form" >
 				<div class="form-group">
-					<label for="login_username">Matrícula</label>
+					<label for="login_username">Matrículas</label>
 					<input type="text" id="login_username" name="login_username" class="form-control input-lg" data-required="true" data-minlength="2" data-required-message="Matrícula inválida" value="" >
 				</div>
 				<div class="form-group">
